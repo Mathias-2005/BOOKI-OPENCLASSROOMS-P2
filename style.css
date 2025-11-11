@@ -1,4 +1,4 @@
-/****** General ***********/
+/****** GENERAL ***********/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -17,6 +17,13 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/******* NAVBAR ********/
+
+
+/** 
+
+
 
 .main-container {
     width: 100%;

@@ -74,7 +74,7 @@ header img {
 
 .search-bar {
     display: flex;
-    margin-top: 40px;
+    margin-top: 35px;
     width: 377px;
     height: 49px;
 }
@@ -123,9 +123,8 @@ input.submit {
     flex-direction: row;
     align-items: center;
     gap: 15px;
-    width: 758px;
     height: 50px;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .filter-bar p {
@@ -170,6 +169,35 @@ input.submit {
 
 .btn-nos {
     width: 167px;
+}
+
+/***** INFO ******/
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 24px;
+    width: auto;
+    margin-top: 35px;
+}
+
+.cercle {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #d9d9d9;
+    border-radius: 100%;
+}
+
+#icon-info {
+    width: 4px;
+    height: 10px; 
+    margin-top: 3px;
+    margin-left: 9px;
+}
+
+.info p {
+    font-size: 16px;
 }
 
 /*** other ****/

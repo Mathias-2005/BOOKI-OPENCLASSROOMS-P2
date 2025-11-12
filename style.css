@@ -1,4 +1,4 @@
-/****** GENERAL ***********/
+/******** GENERAL ***********/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -9,21 +9,17 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
+.fa-solid { 
     color: var(--main-color);
 }
 
 body {
     display: flex;
     justify-content: center;
+/********** MARGE PAR DEFAUT A 0 **********/
+    margin: 0;
+    padding: 0;
 }
-
-/******* NAVBAR ********/
-
-
-/** 
-
-
 
 .main-container {
     width: 100%;
@@ -32,6 +28,37 @@ body {
     box-sizing: border-box;
 }
 
+/******* NAVBAR ********/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 19px;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 68px;
+    list-style: none;
+}
+
+
+.navbar ul a:hover {
+    color: #0065FC;
+/****** BARRE AU DESSUS AU PASSAGE DE LA SOURIS *********/    
+    text-decoration: 2px solid underline;
+    text-underline-offset: -31px;
+}
+
+
+/*** other ****/
 a {
     color: inherit;
     text-decoration: none;

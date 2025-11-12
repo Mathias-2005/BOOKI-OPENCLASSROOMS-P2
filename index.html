@@ -18,7 +18,7 @@
     <div class="main-container">
         <!--NAVBAR HEADER-->
         <header>
-            <a href="index.html"><img src="images/logo/Booki.png" alt="logo du site Booki" class="logo"></a>            
+            <a href="index.html"><img src="images/logo/Booki.png" alt="logo du site Booki" class="logo"></a>
             <nav class="navbar">
                 <ul>
                     <li><a href="#">Hébergements</a></li>
@@ -26,19 +26,27 @@
                 </ul>
             </nav>
         </header>
-        
+
         <main>
+            <!-- HEADLINE -->
             <div class="headline">
                 <h2>Trouvez votre hébergements pour des vacances de rêve</h2>
                 <p>En plein centre-ville ou en pleine nature</p>
             </div>
-
+            <!-- BAR DE RECHERCHE -->
             <form class="search-bar">
                 <label class="back-icon"><i id="icon" class="fa-solid fa-location-dot"></i></label>
-                <input type="text" name="recherche" value="  Marseille,France" class="search">
+                <input type="text" name="recherche" value="Marseille,France" class="search">
                 <input type="submit" value="Rechercher" class="submit">
             </form>
-
+            <!-- FILTRES DE RECHERCHE -->
+            <div class="filter-bar">
+                <p>Filtres</p>
+                <button class="btn-eco"><i id="icon-filter" class="fa-solid fa-money-bill-wave"></i>Économique</button>
+                <button class="btn-fam"><i id="icon-filter" class="fa-solid fa-person"></i>Familial</button>
+                <button class="btn-rom"><i id="icon-filter" class="fa-solid fa-heart"></i>Romantique</button>
+                <button class="btn-nos"><i id="icon-filter" class="fa-solid fa-fire"></i>Nos pépites</button>
+            </div>
             <!--
             <div class="hebergements-and-populaires">
                 <section class="hebergements">

@@ -1,4 +1,4 @@
-/******** GENERAL ***********/
+/**** GENERAL *****/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -148,11 +148,6 @@ input.submit {
 
 .filter-bar button:hover {
     background-color: rgba(0, 101, 252, 0.2);
-}
-
-.icon-filter {
-    height: 22px;
-    width: 22px;
 }
 
 .btn-eco {

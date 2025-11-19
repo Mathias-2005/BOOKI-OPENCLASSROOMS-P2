@@ -23,9 +23,9 @@
                 <a href="index.html"><img src="images/logo/Booki.png" alt="logo du site Booki" class="logo"></a>
             </div>
             <nav class="navbar">
-                <ul>
-                    <li id="hebergements"><a href="#hebergements"></span>Hébergements</a></li>
-                    <li id="activites"><a href="#activites-marseille">Activités</a></li>
+                <ul id="border-bottom">
+                    <li class="border" id="border-right"><a href="#hebergements"></span>Hébergements</a></li>
+                    <li class="border" id="border-left"><a href="#activites-marseille">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -37,11 +37,13 @@
                 <p>En plein centre-ville ou en pleine nature</p>
             </div>
             <!-- BAR DE RECHERCHE -->
-            <div>
+            <div class="bar">
                 <form class="search-bar">
                     <label class="back-icon"><i id="icon" class="fa-solid fa-location-dot"></i></label>
                     <input type="text" name="recherche" value="Marseille,France" class="search">
                     <input type="submit" value="Rechercher" class="submit">
+                    <span><input type="submit" value="" class="magnifying-glass"><i id="magnifying-glass"
+                            class="fa-solid fa-magnifying-glass"></i></span>
                 </form>
             </div>
             <!-- FILTRES DE RECHERCHE -->

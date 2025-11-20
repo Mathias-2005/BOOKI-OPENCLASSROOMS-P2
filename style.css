@@ -41,15 +41,15 @@ header .logo {
     margin-top: 30px;
 }
 
-.navbar ul {
+.navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     gap: 68px;
-    list-style: none;
+    margin-top: 16px;
 }
 
-.navbar ul a:hover {
+.navbar a:hover {
     color: #0065FC;
     /****** BARRE AU DESSUS AU PASSAGE DE LA SOURIS *********/
     text-decoration: 2px solid underline;
@@ -454,55 +454,37 @@ footer .footer-container {
 @media (max-width: 767.98px) {
     .main-container {
         min-width: 320px;
-        padding: 0;
+        padding: 0; 
     }
-
+    
     header {
         display: flex;
         flex-direction: column;
     }
-
+    
     .logo-navbar {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .navbar ul {
+    .navbar {
         align-items: center;
         justify-content: space-around;
-        padding: 0;
         gap: 0;
     }
 
-    .navbar #border-right {
-        border-bottom: 2px solid #d9d9d9;
+    .navbar a:hover {
+        display: none;
     }
-
-    .navbar #border-left {
-        border-bottom: 2px solid #d9d9d9;
-    }
-
-    .navbar #border-right:hover {
-        border-color: #0065FC;
-    }
-
-    .navbar #border-left:hover {
-        border-color: #0065FC;
-    }
-
-    .navbar ul a:hover {
-        text-decoration: none;
-    }
-
 
     .headline {
-        padding: 0px 20px 0px 20px;
+        margin: 0px 20px;
     }
 
     .search-bar {
-        padding: 0px 20px 0px 20px;
-        width: 100%;
+        width: 90%;
+        margin: 20px 20px 0px 20px;
     }
 
     .search {
@@ -532,7 +514,7 @@ footer .footer-container {
     }
 
     .filter-bar {
-        padding: 0px 20px 0px 20px;
+        margin: 10px 20px 0px 20px;
     }
 
     .filter-btn button {
@@ -542,7 +524,7 @@ footer .footer-container {
     }
 
     .info {
-        padding: 0px 20px 0px 20px;
+        margin: 10px 20px 0px 20px;
     }
 
     .cercle {
@@ -561,50 +543,47 @@ footer .footer-container {
 
     .hebergements-and-populaires section {
         border-radius: 0;
-        padding: 0px 20px 0px 20px;
+        padding: 0;
     }
 
     .populaires {
         height: 570px;
-        margin-top: 35px;
+        margin-top: 15px;
     }
 
     .populaires-title {
-        margin-top: 30px;
+        margin: 30px 20px 0px 20px;
     }
 
     .populaires-cards {
         display: flex;
         flex-direction: column;
         gap: 15px;
-        margin-top: 20px;
-        padding-right: 10px;
+        margin: 20px 20px 0px 20px
     }
 
     .populaires-cards .card {
-        width: 100%;
         margin: 0;
     }
-
 
     .populaires-cards img {
         width: 33%;
         height: 136px;
     }
-
+    
     .hebergements {
-        background-color: white;
         width: 100%;
+        background-color: white;
     }
 
     .hebergements-title {
-        margin-top: 30px;
+        margin: 30px 20px 0px 20px;
     }
 
     .hebergements-cards {
         flex-direction: column;
         gap: 15px;
-        margin-top: 20px;
+        margin: 20px 20px 0px 20px;
     }
 
     .hebergements-cards a {
@@ -616,8 +595,9 @@ footer .footer-container {
     }
 
     .activites-marseille {
-        margin: 0;
-        padding: 30px;
+        margin: 0px 10px;
+        padding: 0;
+        margin: 0px 30px;
     }
 
     .activites-card {
@@ -639,5 +619,6 @@ footer .footer-container {
     footer .footer-container {
         flex-direction: column;
         margin-left: 20px;
-    }
-}
+    } 
+        
+} 

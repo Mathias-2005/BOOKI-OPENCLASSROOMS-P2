@@ -66,7 +66,6 @@ header .logo {
 .search-bar {
     display: flex;
     margin-top: 35px;
-    width: 377px;
     height: 49px;
 }
 
@@ -98,7 +97,6 @@ header .logo {
 input.submit {
     color: #F2F2F2;
     background-color: #0065FC;
-    width: 132px;
     font-weight: bold;
     font-size: 18px;
     border-radius: 0px 15px 15px 0px;
@@ -106,6 +104,7 @@ input.submit {
     cursor: pointer;
 }
 
+/**** LOUPE ICON ****/
 .magnifying-glass {
     display: none;
 }
@@ -530,7 +529,7 @@ footer .footer-container {
     }
 
     .search {
-        width: 55%;
+        width: 80%;
         border-right: none;
     }
 

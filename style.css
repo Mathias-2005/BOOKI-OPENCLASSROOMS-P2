@@ -256,7 +256,7 @@ a {
 }
 
 .hebergements-cards a {
-   width: 31%;
+    width: 31%;
 }
 
 .hebergements-cards img {
@@ -280,7 +280,7 @@ a {
 }
 
 .hebergements-cards .card-rating {
-   margin: 2px 0px 0px 0px;
+    margin: 2px 0px 0px 0px;
 }
 
 .more-info {
@@ -376,7 +376,7 @@ a {
     border-top-right-radius: 20px;
 }
 
-.activites-card .card-content { 
+.activites-card .card-content {
     margin-left: 15px;
 }
 

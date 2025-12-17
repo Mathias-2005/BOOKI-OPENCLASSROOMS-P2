@@ -3,7 +3,7 @@
 ### Booki - Trouvez votre hébergement pour des vacances de rêve
 (Projet 2 - Formation en Web Développement - Openclassrooms)
 
-![uses-css](https://github.com/user-attachments/assets/8679d356-0b89-451d-a126-6a0ec0c491e4)![uses-html](https://github.com/user-attachments/assets/da2fe1e8-50fb-473b-bfc4-d3cc3f52cd8a)
+![uses-css](https://github.com/user-attachments/assets/8679d356-0b89-451d-a126-6a0ec0c491e4)  ![uses-html](https://github.com/user-attachments/assets/da2fe1e8-50fb-473b-bfc4-d3cc3f52cd8a)
 
 ## Scénario
 

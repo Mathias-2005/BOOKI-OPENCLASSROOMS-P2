@@ -27,7 +27,7 @@ La compréhension de visual studio est faite.
 -> **Projet Validé**
 
 ### Soutenance 
-*Remarques* :
+***Remarques*** :
 Soutenance bien présenté.
 La réponse aux questions est bonne.
 

@@ -23,7 +23,7 @@ La compréhension de visual studio est faite.
 
 ## Evaluation
 
-*Evaluation*: Vendredi 28 novembre 2025
+***Evaluation***: Vendredi 28 novembre 2025
 -> **Projet Validé**
 
 ### Soutenance 
